@@ -153,22 +153,8 @@ a {
   transition: 0.3s;
 }
 
-a::after {
-  content: "";
-  display: block;
-  width: 0;
-  height: 2px;
-  background: #000;
-  margin-top: 8px;
-  transition: width 0.3s;
-}
-
 a:hover {
   color: #063ef8;
-}
-
-a:hover::after {
-  width: 100%;
 }
 
 .link-line-break {
